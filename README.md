@@ -76,7 +76,7 @@ For each received weather update:
 
 - ReactJs
 - OpenWeatherMap API key
-- Libraries: `requests`, `pandas`, `matplotlib` (for visualizations), `smtplib` (for email alerts), `sqlalchemy` (for database operations)
+
 
 ### Installation
 
