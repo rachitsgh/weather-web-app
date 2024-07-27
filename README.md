@@ -72,7 +72,7 @@ For each received weather update:
 
 ### Prerequisites
 
-- Python 3.7+
+- ReactJs
 - OpenWeatherMap API key
 - Libraries: `requests`, `pandas`, `matplotlib` (for visualizations), `smtplib` (for email alerts), `sqlalchemy` (for database operations)
 
@@ -81,4 +81,14 @@ For each received weather update:
 1. Clone the repository:
    ```sh
    git clone https://github.com/username/weather-monitoring-system.git
-   cd weather-monitoring-system
+   cd weather-wen-app/frontend
+   ```
+
+2. Install Dependencies
+
+```sh
+    npm i
+```
+3.run Script
+  ```npm run dev
+
