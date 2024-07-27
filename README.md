@@ -19,6 +19,8 @@ The system should continuously call the OpenWeatherMap API at a configurable int
 
 For each received weather update:
 - Convert temperature values from Kelvin to Celsius (or Fahrenheit based on user preference).
+- The system will continuously retrieve weather data, process it, and store the daily summaries in the specified database. Alerts will be triggered if the configured thresholds are breached.
+
 
 ## Rollups and Aggregates
 
@@ -91,4 +93,7 @@ For each received weather update:
 ```
 3.run Script
   ```npm run dev
+```
+## Viewing Visualizations
+-The application will display daily weather summaries, historical trends, and triggered alerts on the web interface.
 
