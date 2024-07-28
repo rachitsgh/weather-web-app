@@ -1,7 +1,7 @@
 import { DateTime } from "luxon";
 import env from "react-dotenv";
 
-const API_KEY = YOUR_API_KEY;
+const API_KEY = YOUR_OPEN_WEATHER_API_KEY;
 const BASE_URL = "https://api.openweathermap.org/data/2.5/";
 
 const getWeatherData = (infoType, searchParams) => {
